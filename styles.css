@@ -1,0 +1,181 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    color: #fff; /* Adjust text color for better visibility on the background */
+}
+
+.home-background {
+    background-image: url('https://wallpapers.com/images/hd/pure-black-background-py9pa0f1mlsscm9s.jpg'); /* Replace 'background-image.jpg' with the actual path to your image */
+    background-size: cover;
+    background-position: center;
+}
+
+header {
+    background-color: #222; /* Black */
+    color: #fff;
+    padding: 15px 0;
+    text-align: center;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+/* ... (previous styles) ... */
+
+.content {
+    padding: 60px 20px 20px;
+}
+
+.welcome-section {
+    text-align: center;
+}
+
+.center-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Set the height to 100% of the viewport height */
+    color: #ffffff;
+}
+
+.center-text h1, .center-text p {
+    margin: 0;
+    
+}
+.center-text h1 {
+    font-size: 36px; /* Adjust the font size as needed */
+    color: #fff;
+}
+
+/* ... (remaining styles) ... */
+
+
+#logo {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #ff8c00; /* Orange */
+}
+
+.content {
+    padding: 60px 20px 20px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+.product {
+    margin-right: 100px; /* Increased margin for more space on the right */
+    flex: 0 0 auto;
+    width: 250px; /* Updated width value */
+    margin-top: 50px; /* Add margin to move images downward */
+    justify-content: flex-end; /* Align items to the right */
+}
+
+ .product img {
+    width: 100%;
+    border-radius: 8px;
+    margin-top: 10px; /* Add margin to move images downward */
+    object-fit: cover; /* Maintain aspect ratio */
+    transition: transform 0.3s ease-in-out;
+}
+
+.product img:hover {
+    transform: scale(1.1); /* Scale up the image on hover */
+}
+
+
+
+.description {
+    font-weight: bold;
+    margin-top: 10px;
+    color: #333;
+}
+
+.price {
+    color: #555; /* Gray */
+    margin-top: 5px;
+}
+
+/* Add a transparent background to the navigation when scrolled */
+.scrolled {
+    background-color: rgba(34, 34, 34, 0.95); /* Almost Black */
+    transition: background-color 0.3s;
+}
+/* ... (previous styles) ... */
+
+/* Men's Collection */
+#men {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+}
+
+/* Women's Collection */
+#women {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    
+}
+
+/* ... (remaining styles) ... */
+/* ... (previous styles) ... */
+
+footer {
+    background-color: #333;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.contact-icons {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-icons li {
+    margin: 0 10px;
+}
+
+.contact-icons a {
+    color: #ffffff;
+    font-size: 24px;
+    transition: color 0.3s ease;
+}
+
+.contact-icons a:hover {
+    color: #ffcc00; /* Change icon color on hover */
+}
+
+.about-text , .contact-text {
+    color: #000; /* Set text color to black */
+}
